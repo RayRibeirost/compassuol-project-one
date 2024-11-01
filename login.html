@@ -11,27 +11,27 @@
 </head>
 <body>
     <header>
-        <div class="flex-container row">
+        <div class="flex-container row width80">
             <img src="src/images/logo-icon.svg" alt="Logo da agência batatinha" title="logo">
             <p>Agência batatinha</p>
         </div>
     </header>
     <main>
         <div class="flex-container row">
-            <section>
+            <section class="flex-container column main-container login-section">
                 <h2>Entre com seu email e senha</h2>
                 <input type="text" name="email" id="email" placeholder="Email">
                 <input type="password" name="password" id="password" placeholder="Senha">
-                <button>Entrar</button>
-                <p></p>
+                <p id="validation-text"></p>
+                <button onclick="validation()">Entrar</button>
                 <div></div>
                 <p>Não possui uma conta? <a href="maintenance.html">Criar</a></p>
             </section>
             <div></div>
-            <section>
-                <h1>Bem-vindo à agência<br>Batatinha</h1>
+            <section class="flex-container column main-container banner-section">
+                <h1>Bem-vindo à agência Batatinha</h1>
             </section>
-            </div>
+        </div>
     </main>
     <script src="src/scripts/login/script.js"></script>
 </body>
