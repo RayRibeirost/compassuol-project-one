@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* General */
-
 html {
     font-size: 16px;
     font-family: "Poppins", serif;
@@ -11,6 +9,7 @@ html {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    
 }
 
 .row {
@@ -23,9 +22,18 @@ html {
 
 .width80 {
     width: 80%;
+    
 }
 
-/* header */
+.btn-primary {
+    color: white;
+    background-color: rgba(254, 129, 0, 1);
+}
+
+.orange {
+    font-weight: 600;
+    color: rgba(254, 129, 0, 1);
+}
 
 header {
     padding: 1.3rem 0;
@@ -38,38 +46,6 @@ header p {
     margin-left: 2%;
 }
 
-/* main */
 
-main {
-    margin: 0 auto;
-    width: 95%;
-    margin-top: 5%;
-}
-
-.login-section {
-    width: 40%;
-    background-color: rgba(251, 251, 251, 1);
-    border-radius: 10%;
-}
-
-.banner-section {
-    height: 50rem;
-    width: 40%;
-    background-image: url("../../images/house-1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 2%;
-}
-
-.banner-section h1 {
-    font-size: 2.5rem;
-    font-weight: 300;
-    color: white;
-    margin-top: 4rem;
-    margin-left: 3rem;
-    line-height: 1.5;
-    padding-right: 1rem ;
-}
 
 
