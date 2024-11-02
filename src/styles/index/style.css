@@ -1,1 +1,202 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* general */
+
+
+h2 {
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+article {
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    justify-content: start;
+}
+
+
+/* header */
+
+header div p {
+    margin-right: 30%;
+}
+
+.contact-button {
+    border-radius: 1rem;
+    margin-left: 30%;
+    color: white;
+    background-color: transparent;
+}
+
+.out-button {
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+    padding: 0.7rem 3.2rem;
+}
+
+/* banner */
+
+.banner-section {
+    background-image: url("../../images/house-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+}
+
+.banner-section h1 {
+    font-size: 3.3rem;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 45%;
+}
+
+/* our services */
+
+.services {
+    justify-content: space-between;
+}
+
+.services-div {
+    height: 25rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.services-div figure {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.services-div-info {
+    font-family: "Inter";
+}
+
+.services-div-info h3 {
+    font-size: 1.5rem;
+}
+
+.services-div-info p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.img-house-3 {
+    background-image: url("../../images/house-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-house-4 {
+    background-image: url("../../images/house-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-house-5 {
+    background-image: url("../../images/house-5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* best offers */
+
+.offers {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+}
+
+.offers-card {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.offers-card img {
+    border-radius: 0.7rem;
+}
+
+.offers-card-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.offers-card-size {
+    font-size: 1.5rem;
+    color:rgba(132, 131, 131, 1);
+    margin-top: 0.5rem;
+}
+
+.offers-card-info {
+    margin-top: 0.5rem;
+}
+
+.offers-card-info span {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.3rem;
+    color: white;
+    background-color: rgba(254, 129, 0, 1);
+    border-radius: 0.3rem;
+}
+
+.offers-card-info-bathroom {
+    margin-left: 1rem;
+}
+
+#card-img {
+    cursor: pointer;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(30, 30, 30, 1);
+    color: white;
+}
+
+.footer-start h3 {
+    color: rgba(254, 129, 0, 1);
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.footer-start p {
+    margin-bottom: 1rem;
+}
+
+.footer-end {
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.footer-end a {
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+
+
+
+ /* modal */
+
+ .modal {
+    display: none;
+ }
+

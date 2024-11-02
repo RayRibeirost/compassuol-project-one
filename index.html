@@ -10,72 +10,95 @@
     <title>Home - Agência Batatinha</title>
 </head>
 <body>
+    
     <header>
-        <img src="src/images/logo-icon.svg" alt="Logo da agência batatinha" title="logo">
-        <p>Agência batatinha</p>
-        <button>Contato</button>
-        <a href="login.html"><button>Sair</button></a>
+        <div class="flex-container row width80">
+                <img src="src/images/logo-icon.svg" alt="Logo da agência batatinha" title="logo">
+                <p>Agência batatinha</p>            
+                <button class="contact-button">Contato</button>
+                <a href="login.html"><button class="btn-primary out-button">Sair</button></a>
+        </div>
+        
     </header>
     <main>
-        <section>
-            <h1>Encontre as melhores casas,<br> pontos comerciais e hoteis</h1>
+
+        <section class="banner-section">
+            <h1>Encontre as melhores casas, pontos comerciais e hoteis</h1>
         </section>
-        <section>
-            <h2>Nossos serviços</h2>
-            <div>
-                <figure></figure>
-                <h3>Residenciais</h3>
-                <p>123 ofertas</p>
-            </div>
-            <div>
-                <figure></figure>
-                <h3>Comerciais</h3>
-                <p>93 ofertas</p>
-            </div>
-            <div>
-                <figure></figure>
-                <h3>Hoteis</h3>
-                <p>23 ofertas</p>
-            </div>
-        </section>
-        <section>
-            <h2>Melhores oportunidades</h2>
+
+        <article class="width80">
+
             <section>
-                <div class="offer-card">
-                    <figure>
-                        <img src="" alt="building">
-                    </figure>
-                    <p></p>
-                    <p></p>
-                    <span></span> <span></span>
+                <h2>Nossos serviços</h2>
+                <div class="flex-container row services">
+                    <div class="services-div flex-container column">
+                        <figure class="img-house-3"></figure>
+                        <div class="services-div-info">
+                            <h3>Residenciais</h3>
+                            <p>123 ofertas</p>
+                        </div>
+                    </div>
+                    <div class="services-div flex-container column">
+                        <figure class="img-house-4 "></figure>
+                        <div class="services-div-info">
+                            <h3>Comerciais</h3>
+                            <p>93 ofertas</p>
+                        </div>
+                    </div>
+                    <div class="services-div flex-container column">
+                        <figure class="img-house-5"></figure>
+                        <div class="services-div-info">
+                            <h3>Hoteis</h3>
+                            <p>23 ofertas</p>
+                        </div>
+                    </div>
                 </div>
             </section>
-        </section>
+
+            <section>
+                <h2>Melhores oportunidades</h2>
+                <section class="flex-container row offers" id="offers-container">
+
+                    <!-- <div class="offers-card">
+                        <figure>
+                            <img src="src/images/house-11.png" alt="building" class="card-img" width="292px" height="197px">
+                        </figure>
+                        <p class="offers-card-price">R$ <span class="offer-price">2.000.000,00</span></p>
+                        <p class="offers-card-size"><span class="offer-size">132</span> m<sup>2</sup></p>
+                        <p class="offers-card-info"><span class="offers-card-info-bedroom"><span class="offer-bedroom">2</span> quartos</span> <span class="offers-card-info-bathroom"><span class="offer-bathroom">2</span> banheiros</span></p>
+                    </div> -->
+
+                </section>
+            </section>
+
+        </article>
     </main>
     <footer>
-        <section>
-            <h3>Contato</h3>
-            <p>agencia_batatinha@contato.com</p>
-            <p>(99) 99999-9999</p>
-        </section>
-        <section>
-            <section>
-                <a href="#"><img src="src/images/facebook-icon.svg" alt="icone do facebook" title="Visite nosso facebook"></a>
-                <a href="#"><img src="src/images/instagram-icon.svg" alt="icone do instagram" title="Visite nosso instagram"></a>
-                <a href="#"><img src="src/images/youtube-icon.svg" alt="icone do youtube" title="Conheça nosso canal no youtube"></a>
-                <a href="#"><img src="src/images/twitter-icon.svg" alt="icone do twitter" title="Visite nosso twitter"></a>
+        <article class="width80">
+            <section class="footer-start">
+                <h3>Contato</h3>
+                <p>agencia_batatinha@contato.com</p>
+                <p>(99) 99999-9999</p>
             </section>
-            <p>
-                Desenvolvido por Raylander Ribeiro - CompassUol
-            </p>
-            <figure>
-                <a href="#"><img src="src/images/back-to-top-icon.svg" alt="voltar para o topo" title="voltar para o topo"></a>
-            </figure>
-        </section>
+            <section class="flex-container footer-end">
+                <section>
+                    <a href="#"><img src="src/images/facebook-icon.svg" alt="icone do facebook" title="Visite nosso facebook"></a>
+                    <a href="#"><img src="src/images/instagram-icon.svg" alt="icone do instagram" title="Visite nosso instagram"></a>
+                    <a href="#"><img src="src/images/youtube-icon.svg" alt="icone do youtube" title="Conheça nosso canal no youtube"></a>
+                    <a href="#"><img src="src/images/twitter-icon.svg" alt="icone do twitter" title="Visite nosso twitter"></a>
+                </section>
+                <p>
+                    Desenvolvido por Raylander Ribeiro - CompassUol
+                </p>
+                <figure>
+                    <a href="#"><img src="src/images/back-to-top-icon.svg" alt="voltar para o topo" title="voltar para o topo"></a>
+                </figure>
+            </section>
+        </article>
     </footer>
     <!--Modal-->
-    <article>
-        <section>
+    <section class="modal">
+        <dalog>
             <figure>
                 <img src="src/images/close-icon.svg" alt="fechar modal" title="fechar">
             </figure>
@@ -87,8 +110,8 @@
             <span></span>
             <span></span>
             <button>Comprar</button>
-        </section>
-    </article>
+        </dialog>
+    </section>
     <script src="src/scripts/index/script.js"></script>
 </body>
 </html>
