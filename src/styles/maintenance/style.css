@@ -1,0 +1,56 @@
+
+/* Main infos */
+
+.main-info-container {
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+#main-info {
+    margin-top: 2rem;
+}
+
+#main-info h2 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: rgba(254, 129, 0, 1);
+    margin-bottom: 1rem;
+}
+
+#main-info p:first-of-type {
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 1.3;
+}
+
+#main-info p:last-of-type {
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+
+#main-info a {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#main-info button {
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    padding: 1.5rem 13rem;
+}
+
+
+
+/* footer */
+
+footer {
+    padding-top: 8rem;
+}
+
+footer a {
+    margin-right: 0.7rem;
+}
