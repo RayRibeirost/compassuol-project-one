@@ -10,7 +10,6 @@
     <title>Home - Agência Batatinha</title>
 </head>
 <body>
-    
     <header>
         <div class="flex-container row width80">
                 <img src="src/images/logo-icon.svg" alt="Logo da agência batatinha" title="logo">
@@ -18,16 +17,12 @@
                 <button class="contact-button">Contato</button>
                 <a href="login.html"><button class="btn-primary out-button">Sair</button></a>
         </div>
-        
     </header>
     <main>
-
         <section class="banner-section">
             <h1>Encontre as melhores casas, pontos comerciais e hoteis</h1>
         </section>
-
         <article class="width80">
-
             <section>
                 <h2>Nossos serviços</h2>
                 <div class="flex-container row services">
@@ -54,23 +49,10 @@
                     </div>
                 </div>
             </section>
-
             <section>
                 <h2>Melhores oportunidades</h2>
-                <section class="flex-container row offers" id="offers-container">
-
-                    <!-- <div class="offers-card">
-                        <figure>
-                            <img src="src/images/house-11.png" alt="building" class="card-img" width="292px" height="197px">
-                        </figure>
-                        <p class="offers-card-price">R$ <span class="offer-price">2.000.000,00</span></p>
-                        <p class="offers-card-size"><span class="offer-size">132</span> m<sup>2</sup></p>
-                        <p class="offers-card-info"><span class="offers-card-info-bedroom"><span class="offer-bedroom">2</span> quartos</span> <span class="offers-card-info-bathroom"><span class="offer-bathroom">2</span> banheiros</span></p>
-                    </div> -->
-
-                </section>
+                <section class="flex-container row offers" id="offers-container"></section>
             </section>
-
         </article>
     </main>
     <footer>
@@ -96,22 +78,12 @@
             </section>
         </article>
     </footer>
+    
     <!--Modal-->
-    <section class="modal">
-        <dalog>
-            <figure>
-                <img src="src/images/close-icon.svg" alt="fechar modal" title="fechar">
-            </figure>
-            <figure>
-                <img src="" alt="building">
-            </figure>
-            <p></p>
-            <span></span>
-            <span></span>
-            <span></span>
-            <button>Comprar</button>
-        </dialog>
-    </section>
-    <script src="src/scripts/index/script.js"></script>
+    <div id="modal-container">
+        </section>
+       </div> 
+        <div id="overlay" onclick="closeModal()"></div>
+    <script src="src/scripts/index/script.js" ></script>
 </body>
 </html>

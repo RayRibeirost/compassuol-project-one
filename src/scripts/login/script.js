@@ -20,6 +20,8 @@ function validation() {
     } else {
         message.style.color = "green";
         message.innerHTML = "Dados ok";
-        window.location.href = "index.html";
+        setTimeout(() => {
+            window.location.href = "index.html";
+        }, 750);
     };
 };
