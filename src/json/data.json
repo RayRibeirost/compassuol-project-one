@@ -80,7 +80,7 @@
         "image":"src/images/house-12.png",
         "price":"R$ 100.000",
         "size": 55,
-        "bedrooms": 2,
+        "bedrooms": 1,
         "bathrooms": 2
     }, 
     {
@@ -109,6 +109,6 @@
         "price":"R$ 263.000",
         "size": 70,
         "bedrooms": 2,
-        "bathrooms": 3
+        "bathrooms": 1
     }
 ]

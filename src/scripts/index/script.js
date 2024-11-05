@@ -16,7 +16,7 @@ fetch('src/json/data.json').then(response => response.json())
         </figure>
         <p class="offers-card-price"><span class="offer-price">${offer.price}</span></p>
         <p class="offers-card-size"><span class="offer-size">${offer.size}</span> m<sup>2</sup></p>
-        <p class="offers-card-info"><span class="offers-card-info-bedroom"><span class="offer-bedroom">${offer.bedrooms}</span> quartos</span> <span class="offers-card-info-bathroom"><span class="offer-bathroom">${offer.bathrooms}</span> banheiros</span></p>
+        <p class="offers-card-info"><span class="offers-card-info-bedroom"><span class="offer-bedroom">${offer.bedrooms}</span> quarto${offer.bedrooms > 1 ? "s" : ""}</span> <span class="offers-card-info-bathroom"><span class="offer-bathroom">${offer.bathrooms}</span> banheiro${offer.bathrooms > 1 ? "s" : ""}</span></p>
     `;
     offerContainer.appendChild(card);
     card.addEventListener("click", () => openModal(offer));
@@ -37,8 +37,8 @@ function openModal(offer) {
                 <figure class="modal-image" style="background-image:url(${offer.image})"></figure>
                 <p class="modal-price">${offer.price}</p>
                 <div class="modal-info flex-container row">
-                    <p class="modal-info-bedroom"><span class="modal-bedrooms">${offer.bedrooms}</span> quartos</p>
-                    <p class="modal-info-bathroom"><span class="modal-bathrooms">${offer.bathrooms}</span> banheiros</p>
+                    <p class="modal-info-bedroom"><span class="modal-bedrooms">${offer.bedrooms}</span> quarto${offer.bedrooms > 1 ? "s" : ""}</p>
+                    <p class="modal-info-bathroom"><span class="modal-bathrooms">${offer.bathrooms}</span> banheiro${offer.bathrooms > 1 ? "s" : ""}</p>
                     <p class="modal-info-size"><span class="modal-size">${offer.size}</span> m<sup>2</sup></p>
                     <button class="modal-info-buy">Comprar</button>
                 </div>
